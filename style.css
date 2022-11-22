@@ -16,6 +16,7 @@ table, th, td {
   }
   #submit{
     color: blue;
+    font-size: medium;
   }
   body{
     background-color: bisque;
