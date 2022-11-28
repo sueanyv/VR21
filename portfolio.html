@@ -1,77 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style2.css">
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/7d8b5e9cf1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style2.css">
+  <title>Portfolio</title>
 </head>
+
 <body>
-    
-      <header id="header">
-        <img src="logo.png" id="logo" alt="buisness logo">
-      </header>
-    
-      <nav>
-        <ul class="navbar">
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#resume.html">Resume</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    
-  
+  <div id="header">
+    <div id="navbar">
+      <img src="img/logo.png" id="logo" alt="my logo">
+      <div class="nav">
+        <a href="#home">HOME</a>
+        <div class="dropdown">
+          <button class="dropbtn">PORTFOLIO
+          </button>
+          <div class="dropdown-content">
+            <a href="#websites">WEBSITES</a>
+            <a href="#design">DESIGN</a>
+          </div>
+        </div>
+        <a href="#contact">CONTACT</a>
+      </div>
+    </div>
+  </div>
 
-<div id="about">
+  <div id="home">
+    <div id="homebox">
+      <img src="img/mypic.png" id="mypic" alt="my picture">
+    </div>
+  </div>
 
-</div>
-<div id="resume">
+  <div id="design">
+    <h1 id="destitle">Design</h1>
+    <div id="bookcover">
+      <h2>Book Covers</h2>
+      <img src="img/space.png" class="books " alt="books cover">
+      <img src="img/balloon.png" class="books " alt="books cover">
+      <img src="img/christmas.png" class="books" alt="books cover">
+    </div>
+    <div id="buislogos">
+      <h2>Logos</h2>
+      <img src="img/martinez.png" class="bizlogo" alt="buisness logo">
+      <img src="img/skull.png" class="bizlogo" alt="buisness logo">
+    </div>
 
-</div>
-<div id="port">
+  </div>
+  <div id="websites">
+    <h1>Websites</h1>
+    <div id="webbox">
+      <a href="https://sueanyv.github.io/SelenaSite/"><img src="img/selena.png" class="websiteImg"
+          alt="selena website"></a>
+      <a href="https://michael-moviefinder.herokuapp.com/"><img src="img/movie.png" class="websiteImg"
+          alt="move website"></a>
+      <a href="https://averypratt.github.io/Jigsaw-Puzzle/"> <img src="img/jigsaw.png" class="websiteImg"
+          alt="jigsaw website"></a>
+    </div>
+  </div>
 
-</div>
-
-
-<div id="contact">
-    <div class="container">
+  <div id="contact">
+    <div class="formContainer">
+      <div id="conImagebox">
+        <img src="img/name.png" id="contlogo" alt="buisness logo">
+        <h2>Contact Me</h2>
+        <p>Sugey.Valencia@tlgcohort.com</p>
+       <a href="https://github.com/sueanyv"> <i class="fa fa-github " aria-hidden="true"></i></a>
+      </div>
       <form action="mailto:sueany16@gmail.com" method="post" enctype="text/plain">
-        <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        <label for="lname">Last Name</label>
         <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-        <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        <textarea id="subject" name="subject" placeholder="Messgae" style="height:200px"></textarea>
         <input type="submit" value="Submit">
       </form>
     </div>
-</div>
-
-   
+  </div>
 
 
-
-
-    
-      <footer id="footer">
-        <h1 id="copyright">Copyright 2022 </h1>
-        <i class="fa fa-linkedin" aria-hidden="true"></i>
-        <i class="fa fa-github" aria-hidden="true"></i>
-      </footer>
-    </body>
-    
-    </html>
-
-
-
-
-
-
-
-
-
+  <footer id="footer">
+    <h1 id="copyright">Copyright 2022 </h1>
+  </footer>
 </body>
+
 </html>
+
+
