@@ -98,14 +98,28 @@ body {
   background-color: white;
   height: 570px;
   width: 680px;
-  display: inline-flex;
+  /* display: inline-flex; */
 }
 #mypic{
   height: 500px;
   margin-left: 40px;
-  margin-top: 35px;;
+  margin-top: 20px;;
 }
 
+#resume{
+  
+  margin-left: 290px;
+  color: rgb(6, 6, 6);
+  font-size: 18px;
+  padding: 12px 20px;
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #F2F2F2;
+  font-family: serif;
+}
 
 /* Design */
 #design {
