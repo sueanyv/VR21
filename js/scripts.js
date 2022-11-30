@@ -23,6 +23,6 @@ console.log(sis  === favcolor);
 console.log(favcolor === "light blue");
 console.log( bros % sis );
 console.log(Number.parseInt(bros));
-console.log(Number.parseInt("45"));
+console.log(`ParseInt of "45" =`,Number.parseInt("45"));
 console.log(`I have ` + num.toString() + ` books` );  
-console.log( typeof num.toString() );
+console.log( `var num = 12 ; num.toString typeof num =`, typeof num.toString() );
