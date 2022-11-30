@@ -1,4 +1,4 @@
-console.log("Is this working?")
+
 const name = "Sugey";
 const lasname ="Valencia";
 const favcolor = "light blue";
@@ -9,6 +9,8 @@ const sis = 1;
 const ageSentence = "23"
 const bolFalse = false;
 var num = 12;
+const sentence = "It is snowing";
+
 
 
 console.log(`My name is ${name} ${lasname}`);
@@ -26,3 +28,9 @@ console.log(Number.parseInt(bros));
 console.log(`ParseInt of "45" =`,Number.parseInt("45"));
 console.log(`I have ` + num.toString() + ` books` );  
 console.log( `var num = 12 ; num.toString typeof num =`, typeof num.toString() );
+const userAge = prompt("How old are you?");
+if(userAge > 21){
+    console.log("You can drink");
+}else{
+   console.log("NO DRINKING FOR YOU!");
+}
