@@ -18,3 +18,5 @@ document.querySelector("#submit").addEventListener("click", (e) => {
 
  document.querySelector(".row").insertAdjacentHTML("beforeend", contentCard);
 });
+
+
