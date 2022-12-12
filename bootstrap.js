@@ -62,5 +62,5 @@ function deleteCard(event) {
     const buttonDelete = event.target;
     const colCard = buttonDelete.closest(".col"); 
     console.log(colCard);
-    // colCard.remove();
+    colCard.remove();
   }
