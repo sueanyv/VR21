@@ -6,7 +6,7 @@ const resource =`https://api.unsplash.com/search/photos?query=${searchTerm}&per_
   .then((res) => res.json())
   .then((data) => {
   const container = document.querySelector(".container")
-for (let i = 0; i < data.results.length-1; i++) {
+  for (let i = 0; i < data.results.length-1; i++) {
   const url  = data.results[i].urls.thumb;
   const img = document.createElement("img")
   
